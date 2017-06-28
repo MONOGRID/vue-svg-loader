@@ -10,7 +10,7 @@ module.exports = function (content) {
 
   var cb = this.async();
 
-  svgo.optimize(content).then(function (result) {
+  svgo.optimize(content, function (result) {
     if (result.error) {
       return cb(result.error);
     }
