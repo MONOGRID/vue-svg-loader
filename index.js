@@ -5,7 +5,8 @@ var svgo = new svg({
     {removeTitle: true},
     {removeXMLNS: true},
     {removeStyleElement: true},
-    {removeScriptElement: true}
+    {removeScriptElement: true},
+    {removeDimensions: true}
   ]
 });
 

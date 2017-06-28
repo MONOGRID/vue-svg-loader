@@ -1,4 +1,10 @@
 # vue-svg-loader
-Forked from https://github.com/visualfanatic/vue-svg-loader
+Forked from https://github.com/visualfanatic/vue-svg-loader and added the following options
 
-added `removeStyleElement` and `removeScriptElement` to svggo options in order to avoid situations where an SVG produces an error when imported
+- `removeTitle` 
+- `removeXMLNS`
+- `removeStyleElement`
+- `removeScriptElement` 
+- `removeDimensions` 
+
+to svggo (https://github.com/svg/svgo) in order to avoid situations where an SVG produces an error when used as template in Vue.js
